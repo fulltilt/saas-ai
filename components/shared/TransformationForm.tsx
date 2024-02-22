@@ -273,7 +273,7 @@ const TransformationForm = ({
           </div>
         )}
 
-        {/* <div className="media-uploader-field">
+        <div className="media-uploader-field">
           <CustomField
             control={form.control}
             name="publicId"
@@ -297,7 +297,7 @@ const TransformationForm = ({
             setIsTransforming={setIsTransforming}
             transformationConfig={transformationConfig}
           />
-        </div> */}
+        </div>
 
         <div className="flex flex-col gap-4">
           <Button
